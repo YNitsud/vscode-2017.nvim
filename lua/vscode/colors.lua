@@ -6,9 +6,9 @@ colors.get_colors = function()
         mycolors = {
             vscNone = 'NONE',
             vscFront = '#D4D4D4',
-            vscBack = '#1F1F1F',
+            vscBack = '#1E1E1E',
 
-            vscTabCurrent = '#1F1F1F',
+            vscTabCurrent = '#1E1E1E',
             vscTabOther = '#2D2D2D',
             vscTabOutside = '#252526',
 
@@ -29,7 +29,7 @@ colors.get_colors = function()
             vscCursorDark = '#51504F',
             vscCursorLight = '#AEAFAD',
             vscSelection = '#264F78',
-            vscLineNumber = '#5A5A5A',
+            vscLineNumber = '#2B91AF',
 
             vscDiffRedDark = '#4B1818',
             vscDiffRedLight = '#6F1313',
@@ -76,6 +76,17 @@ colors.get_colors = function()
             vscYellow = '#DCDCAA',
             vscDarkYellow = '#FFD602',
             vscPink = '#C586C0',
+
+            -- 2017 VS Code Dark theme specific colors
+            vsc2017Func = '#C8C8C8',
+            vsc2017Var = '#C8C8C8',
+            vsc2017Param = '#7F7F7F',
+            vsc2017Property = '#DADADA',
+            vsc2017EnumMember = '#B8D7A3',
+            vsc2017Directive = '#9B9B9B',
+            vsc2017PreprocessorFunc = '#BD63C5',
+            vsc2017FuncOperator = '#B4B4B4',
+            vsc2017Whitespace = '#204852',
 
             -- Low contrast with default background
             vscDimHighlight = '#51504F',
