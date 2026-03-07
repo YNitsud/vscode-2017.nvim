@@ -123,7 +123,7 @@ theme.set_highlights = function(opts)
     hl(0, '@function.method', { fg = c.vsc2017Func, bg = 'NONE' })
     hl(0, '@define', { fg = c.vsc2017Directive, bg = 'NONE' })
     hl(0, '@variable', { fg = c.vsc2017Var, bg = 'NONE' })
-    hl(0, '@variable.builtin', { fg = c.vscBlue, bg = 'NONE' })
+    hl(0, '@variable.builtin', { fg = c.vsc2017Param, bg = 'NONE' })
     hl(0, '@variable.parameter', { fg = c.vsc2017Param, bg = 'NONE' })
     hl(0, '@variable.parameter.reference', { fg = c.vsc2017Param, bg = 'NONE' })
     hl(0, '@variable.member', { fg = c.vsc2017Property, bg = 'NONE' })
@@ -426,7 +426,14 @@ theme.set_highlights = function(opts)
     hl(0, 'pythonTodo', { fg = c.vscBlue, bg = 'NONE' })
     hl(0, 'pythonClassVar', { fg = c.vscBlue, bg = 'NONE' })
     hl(0, 'pythonClassDef', { fg = c.vscBlueGreen, bg = 'NONE' })
-    hl(0, '@constructor.python', { fg = c.vscBlueGreen, bg = 'NONE' })
+    hl(0, '@constructor.python', { fg = c.vsc2017Func, bg = 'NONE' })
+
+    -- Rust
+    hl(0, '@variable.builtin.rust', { fg = c.vscBlue, bg = 'NONE' })
+
+    -- C/C++
+    hl(0, '@keyword.import.c', { fg = c.vsc2017Directive, bg = 'NONE' })
+    hl(0, '@keyword.import.cpp', { fg = c.vsc2017Directive, bg = 'NONE' })
 
     -- TeX
     hl(0, 'texStatement', { fg = c.vscBlue, bg = 'NONE' })
